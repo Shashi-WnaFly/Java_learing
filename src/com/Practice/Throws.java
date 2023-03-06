@@ -24,7 +24,8 @@ public class Throws {
             try {
                 System.out.println("The area of the circle is " + area(num));
                 har = false;
-            } catch (Exception e) {
+            } 
+            catch (Exception e) {
 //                System.out.println(e.getMessage());
                 System.out.print(e);
             }
