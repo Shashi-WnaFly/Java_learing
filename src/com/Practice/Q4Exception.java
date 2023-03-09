@@ -22,7 +22,6 @@ public class Q4Exception {
         int check;
         Scanner input = new Scanner(System.in);
         System.out.println("Enter Product number.");
-//        if (check < 5) {
         try {
             for (check = 0; check < 5; check++) {
                 int arr = input.nextInt();
