@@ -22,8 +22,7 @@ public class Q3Exception {
             }
             error++;
         }
-        if(error == 5){
-            System.out.println("Error");
-        }
+        if(error == 5) System.out.println("Error");
+
     }
 }
