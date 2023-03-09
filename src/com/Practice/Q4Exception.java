@@ -13,7 +13,7 @@ class Custom extends Exception {
 }
 
 public class Q4Exception {
-    public static void thro(int a) throws Custom {
+    public static void thro() throws Custom {
         throw new Custom();
     }
 
@@ -32,7 +32,7 @@ public class Q4Exception {
                     System.out.println(e);
                 }
             }
-            thro(check);
+            thro();
         } catch (Exception e) {
             System.out.println(e);
             System.out.println(e.getMessage());
