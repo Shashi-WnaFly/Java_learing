@@ -2,7 +2,7 @@ package com.Practice;
 
 import java.util.Scanner;
 
-// Q3 --> Write a program that allows you to keep accessing an array until a valid index is given. If max retries exceed 3 print"Error"
+// Q3 --> Write a program that allows you to keep accessing an array until a valid index is given. If max retries exceed 5 print"Error"
 public class Q3Exception {
     public static void main(String[] args) {
 //        int []Result = new int[5];
