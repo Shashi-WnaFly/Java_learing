@@ -3,7 +3,10 @@ package com.Practice;
 import java.util.Scanner;
 class MyExCept extends Exception{
     public String toString(){
-        return "Please do not enter any number greater than 7000.";
+        return "Please do not enter any number greater than 7000 in multiplication. Or";
+    }
+    public String getMessage(){
+        return "Please do not enter any number greater than 100000 in any operation.";
     }
 }
 public class Calculater {
@@ -22,6 +25,11 @@ public class Calculater {
         System.out.print("Enter here : ");
         int select = top.nextInt();
 
+        try{
+            verify(num1, num2);
+        } catch(Exception d){
+            System.out.println(d.getMessage());
+        }
 
         switch(select){
             case 1:{
@@ -42,7 +50,7 @@ public class Calculater {
                     }
                 }
                 catch(Exception d){
-                    System.out.println(d);
+                    System.out.println(d.toString());
                 }
                 break;
             }
@@ -54,6 +62,9 @@ public class Calculater {
                    System.out.println("Please don't divide a number by zero.");
                }
                 break;
+            }
+            default:{
+                System.out.println("Please enter a valid number.");
             }
         }
     }
