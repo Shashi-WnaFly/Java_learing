@@ -6,7 +6,7 @@ class MyExCept extends Exception{
         return "Please do not enter any number greater than 7000 in multiplication. Or";
     }
     public String getMessage(){
-        return "Please do not enter any number greater than 100000 in any operation.";
+        return "Please do not enter any number greater than 100000 in any operation. ";
     }
 }
 public class Calculater {
