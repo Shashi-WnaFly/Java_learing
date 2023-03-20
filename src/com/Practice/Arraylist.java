@@ -13,7 +13,7 @@ public class Arraylist {
 
         sold1.add(333);
         sold1.add(335);
-        sold1.add(330);
+        sold1.add(334);
 //        sold.addAll(sold1);
         sold.addAll(2,sold1);
 //        sold.clear();
