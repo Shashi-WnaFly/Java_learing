@@ -8,7 +8,7 @@ public class LInked {
         toyRed.add(93);
         toyRed.add(78);
         toyRed.add(78);
-        toyRed.add(3, 99);
+        toyRed.add(3, 96);
         toyRed.poll();
 //        toyRed.remove(3);
 //        toyRed.clear();
