@@ -9,5 +9,11 @@ public class Calender1 {
         hoa.add(Calendar.YEAR, -13);
         System.out.println(hoa.getTime());
         System.out.println(hoa.getWeeksInWeekYear());
+
+        Scanner nn = new Scanner(System.in);
+        System.out.println("Enter a Year and I will show you it is leap or not.");
+        int yy = nn.nextInt();
+        GregorianCalendar no = new GregorianCalendar();
+        System.out.println(no.isLeapYear(yy));
     }
 }
