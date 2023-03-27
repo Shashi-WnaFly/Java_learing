@@ -12,11 +12,11 @@ public class DateQue {
         System.out.println(mydate.getHours()+":"+mydate.getMinutes()+":"+mydate.getSeconds());
 
         // Q3. Repeat q2 using time api.
+
         LocalTime jo = LocalTime.now();
         DateTimeFormatter go = DateTimeFormatter.ofPattern("HH:mm:ss");
         String myTime = jo.format(go);
         System.out.println(myTime);
-
 
     }
 }
