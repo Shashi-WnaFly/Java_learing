@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Bufer {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter any String that u want.");
+        System.out.println("Enter String and check whether is String is palindrome or not.");
         String userin = in.nextLine();
         StringBuffer userni = new StringBuffer(userin);
         userni.reverse();
