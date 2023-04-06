@@ -6,9 +6,9 @@ public class Bufer {
         System.out.println("Enter any String that u want.");
         String userin = in.nextLine();
         StringBuffer userni = new StringBuffer(userin);
-        System.out.println(userni);
-        StringBuffer rev = userni.reverse();
-        String eq = rev.toString();
+        userni.reverse();
+        String eq = userni.toString();
+
         if(eq.equals(userin)){
             System.out.println("This is the palindrome String.");
         }
