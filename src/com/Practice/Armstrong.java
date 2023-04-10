@@ -27,6 +27,7 @@ public class Armstrong {
         }
         if (arm == dupin) {
             System.out.println("yes, this is a armstrong number.");
+
         } else {
             System.out.println("No, this is not an armstrong number.");
         }
